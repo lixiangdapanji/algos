@@ -197,11 +197,19 @@ public class _0000Main {
 //        String result = longestWordinDictionary.longestWord(words);
 //        System.out.println(result);
 
-        int[] a = {23, 2, 6, 4, 7};
-        int k = 6;
-        _0523ContinuousSubarraySum continuousSubarraySum = new _0523ContinuousSubarraySum();
-        boolean bool = continuousSubarraySum.checkSubarraySum(a, k);
-        System.out.println(bool);
+//        int[] a = {23, 2, 6, 4, 7};
+//        int k = 6;
+//        _0523ContinuousSubarraySum continuousSubarraySum = new _0523ContinuousSubarraySum();
+//        boolean bool = continuousSubarraySum.checkSubarraySum(a, k);
+//        System.out.println(bool);
+
+
+        String[] dict = {"cat", "bat", "rat"};
+        //List<String> dict = new ArrayList<>(strs.asList());
+        String sentence = "the cattle was rattled by the battery";
+        _0648ReplaceWords replaceWords = new _0648ReplaceWords();
+        String s = replaceWords.replaceWords(Arrays.asList(dict), sentence);
+        System.out.println(s);
     }
 }
 
