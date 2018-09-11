@@ -121,7 +121,7 @@ public class _0000Main {
 //        System.out.println(square.countOnes(1, 1, 3,3));
 
 //        //325
-//        int[] nums = new int[]{-2, -1, 2, 1};
+//        int[] nums = new int[]{1, -1, 5, -2, 3};
 //        int k = 1;
 //        _0325MaximumSizeSubarraySumEqualsk size = new _0325MaximumSizeSubarraySumEqualsk();
 //        System.out.println(size.maxSubArrayLen(nums,k));
@@ -192,9 +192,17 @@ public class _0000Main {
 //        _0051NQueens nQueens = new _0051NQueens();
 //        System.out.println(nQueens.solveNQueens(4));
 
-        _0720LongestWordinDictionary longestWordinDictionary = new _0720LongestWordinDictionary();
-        String[] words = {"a", "banana", "app", "appl", "ap", "apply", "apple"};
-        String result = longestWordinDictionary.longestWord(words);
-        System.out.println(result);
+//        _0720LongestWordinDictionary longestWordinDictionary = new _0720LongestWordinDictionary();
+//        String[] words = {"a", "banana", "app", "appl", "ap", "apply", "apple"};
+//        String result = longestWordinDictionary.longestWord(words);
+//        System.out.println(result);
+
+        int[] a = {23, 2, 6, 4, 7};
+        int k = 6;
+        _0523ContinuousSubarraySum continuousSubarraySum = new _0523ContinuousSubarraySum();
+        boolean bool = continuousSubarraySum.checkSubarraySum(a, k);
+        System.out.println(bool);
     }
 }
+
+
