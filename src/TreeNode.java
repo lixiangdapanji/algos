@@ -11,17 +11,21 @@ public class TreeNode<T>{
         child.setParent(this);
         this.children.add(child);
     }
+
     public void addChild(T data) {
         TreeNode<T> newChild = new TreeNode<>(data);
         newChild.setParent(this);
         children.add(newChild);
     }
+
+
     public void addChildren(List<TreeNode> children) {
         for(TreeNode t : children) {
             t.setParent(this);
         }
         this.children.addAll(children);
     }
+
     public List<TreeNode> getChildren() {
         return children;
     }

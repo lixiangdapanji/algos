@@ -204,12 +204,16 @@ public class _0000Main {
 //        System.out.println(bool);
 
 
-        String[] dict = {"cat", "bat", "rat"};
-        //List<String> dict = new ArrayList<>(strs.asList());
-        String sentence = "the cattle was rattled by the battery";
-        _0648ReplaceWords replaceWords = new _0648ReplaceWords();
-        String s = replaceWords.replaceWords(Arrays.asList(dict), sentence);
-        System.out.println(s);
+//        String[] dict = {"cat", "bat", "rat"};
+//        //List<String> dict = new ArrayList<>(strs.asList());
+//        String sentence = "the cattle was rattled by the battery";
+//        _0648ReplaceWords replaceWords = new _0648ReplaceWords();
+//        String s = replaceWords.replaceWords(Arrays.asList(dict), sentence);
+//        System.out.println(s);
+
+        _0297SerializeandDeserializeBinaryTree.TreeNode root = new _0297SerializeandDeserializeBinaryTree.TreeNode(1);;
+        _0297SerializeandDeserializeBinaryTree serializeandDeserializeBinaryTree = new _0297SerializeandDeserializeBinaryTree();
+        System.out.println(serializeandDeserializeBinaryTree.serialize(root));
     }
 }
 
