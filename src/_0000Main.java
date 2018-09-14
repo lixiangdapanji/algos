@@ -211,9 +211,22 @@ public class _0000Main {
 //        String s = replaceWords.replaceWords(Arrays.asList(dict), sentence);
 //        System.out.println(s);
 
-        _0297SerializeandDeserializeBinaryTree.TreeNode root = new _0297SerializeandDeserializeBinaryTree.TreeNode(1);;
-        _0297SerializeandDeserializeBinaryTree serializeandDeserializeBinaryTree = new _0297SerializeandDeserializeBinaryTree();
-        System.out.println(serializeandDeserializeBinaryTree.serialize(root));
+//        _0297SerializeandDeserializeBinaryTree.TreeNode root = new _0297SerializeandDeserializeBinaryTree.TreeNode(1);;
+//        _0297SerializeandDeserializeBinaryTree serializeandDeserializeBinaryTree = new _0297SerializeandDeserializeBinaryTree();
+//        System.out.println(serializeandDeserializeBinaryTree.serialize(root));
+
+
+        _0582KillProcess killProcess = new _0582KillProcess();
+        int k = 5;
+        Integer[] p = {1, 3, 10, 5};
+        Integer[] pp = {3, 0, 5, 3};
+//        List<Integer> pid = new ArrayList<>();
+//        List<Integer> ppid = new ArrayList<>();
+
+       List<Integer> list =  killProcess.killProcess(Arrays.asList(p), Arrays.asList(pp), k);
+        for (int num : list) {
+            System.out.println(num);
+        }
     }
 }
 
