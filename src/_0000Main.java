@@ -216,17 +216,28 @@ public class _0000Main {
 //        System.out.println(serializeandDeserializeBinaryTree.serialize(root));
 
 
-        _0582KillProcess killProcess = new _0582KillProcess();
-        int k = 5;
-        Integer[] p = {1, 3, 10, 5};
-        Integer[] pp = {3, 0, 5, 3};
-//        List<Integer> pid = new ArrayList<>();
-//        List<Integer> ppid = new ArrayList<>();
+//        _0582KillProcess killProcess = new _0582KillProcess();
+//        int k = 5;
+//        Integer[] p = {1, 3, 10, 5};
+//        Integer[] pp = {3, 0, 5, 3};
+////        List<Integer> pid = new ArrayList<>();
+////        List<Integer> ppid = new ArrayList<>();
+//
+//       List<Integer> list =  killProcess.killProcess(Arrays.asList(p), Arrays.asList(pp), k);
+//        for (int num : list) {
+//            System.out.println(num);
+//        }
+//        int[][] room = {{Integer.MAX_VALUE, -1, 0, Integer.MAX_VALUE},
+//                        {Integer.MAX_VALUE,Integer.MAX_VALUE,Integer.MAX_VALUE, -1},
+//                        {Integer.MAX_VALUE, -1, Integer.MAX_VALUE, -1},
+//                        {0, -1, Integer.MAX_VALUE,Integer.MAX_VALUE}};
+//        _0286WallsandGates wallsandGates = new _0286WallsandGates();
+//        wallsandGates.wallsAndGates(room);
 
-       List<Integer> list =  killProcess.killProcess(Arrays.asList(p), Arrays.asList(pp), k);
-        for (int num : list) {
-            System.out.println(num);
-        }
+        int[][] grid = {{1,1,0}, {1,1,0}, {0,0,1}};
+        _0547FriendCircles friendCircles = new _0547FriendCircles();
+        System.out.println(friendCircles.findCircleNum(grid));
+
     }
 }
 
