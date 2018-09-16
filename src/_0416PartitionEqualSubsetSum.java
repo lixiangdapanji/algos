@@ -23,10 +23,10 @@ public class _0416PartitionEqualSubsetSum {
             return false;
         }
 
-        // int j = index - 1;
-        // while (j != -1 && a[j] == a[index]) {
-        //     j--;
-        // }
+         int j = index - 1;
+        while (j != -1 && a[j] == a[index]) {
+            j--;
+        }
 
         result = dfs(a, index -1, target - a[index]) || dfs(a, index - 1, target);
 

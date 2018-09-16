@@ -246,6 +246,9 @@ public class _0000Main {
 //           System.out.println(list.toString());
 //       }
 
+        int[] a = {1,1,1,1,1,1,1,1,10};
+        _0416PartitionEqualSubsetSum partitionEqualSubsetSum = new _0416PartitionEqualSubsetSum();
+        System.out.println(partitionEqualSubsetSum.canPartition(a));
 
 
     }
