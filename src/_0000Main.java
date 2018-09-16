@@ -152,7 +152,7 @@ public class _0000Main {
 //        System.out.println(s);
 
 //        _0045JumpGameII jumpGame = new _0045JumpGameII();
-//        int[] a = {3,5,4,1,4};
+//        int[] a = {2,3,1,1,4};
 //        System.out.println(jumpGame.jump(a));
 
 
@@ -233,10 +233,20 @@ public class _0000Main {
 //                        {0, -1, Integer.MAX_VALUE,Integer.MAX_VALUE}};
 //        _0286WallsandGates wallsandGates = new _0286WallsandGates();
 //        wallsandGates.wallsAndGates(room);
+//
+//        int[][] grid = {{1,1,0}, {1,1,0}, {0,0,1}};
+//        _0547FriendCircles friendCircles = new _0547FriendCircles();
+//        System.out.println(friendCircles.findCircleNum(grid));
 
-        int[][] grid = {{1,1,0}, {1,1,0}, {0,0,1}};
-        _0547FriendCircles friendCircles = new _0547FriendCircles();
-        System.out.println(friendCircles.findCircleNum(grid));
+//       int[] candidates = {10,1,2,7,6,1,5};
+//       int target = 8;
+//
+//       _0040CombinationSumII combinationSumII = new _0040CombinationSumII();
+//       for (List<Integer> list : combinationSumII.combinationSum2(candidates,target)) {
+//           System.out.println(list.toString());
+//       }
+
+
 
     }
 }
