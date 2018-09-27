@@ -246,11 +246,27 @@ public class _0000Main {
 //           System.out.println(list.toString());
 //       }
 
-        int[] a = {1,1,1,1,1,1,1,1,10};
-        _0416PartitionEqualSubsetSum partitionEqualSubsetSum = new _0416PartitionEqualSubsetSum();
-        System.out.println(partitionEqualSubsetSum.canPartition(a));
+//        int[] a = {1,1,1,1,1,1,1,1,10};
+//        _0416PartitionEqualSubsetSum partitionEqualSubsetSum = new _0416PartitionEqualSubsetSum();
+//        System.out.println(partitionEqualSubsetSum.canPartition(a));
 
+//        String s = "bbbab";
+//        _0516LongestPalindromicSubsequence longestPalindromicSubsequence = new _0516LongestPalindromicSubsequence();
+//        int n = longestPalindromicSubsequence.longestPalindromeSubseq(s);
+//        System.out.print(n);
 
+        _0149MaxPointsonaLine maxPointsonaLine = new _0149MaxPointsonaLine();
+        //[[1,1],[3,2],[5,3],[4,1],[2,3],[1,4]]
+        Point[] points = new Point[6];
+        points[0] = new Point(1,1);
+        points[1] = new Point(2,2);
+        points[2] = new Point(3,3);
+        points[3] = new Point(4,1);
+        points[4] = new Point(2,3);
+        points[5] = new Point(1,4);
+
+        int res = maxPointsonaLine.maxPoints(points);
+        System.out.print(res);
     }
 }
 
