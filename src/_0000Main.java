@@ -255,19 +255,35 @@ public class _0000Main {
 //        int n = longestPalindromicSubsequence.longestPalindromeSubseq(s);
 //        System.out.print(n);
 
-        _0149MaxPointsonaLine maxPointsonaLine = new _0149MaxPointsonaLine();
-        //[[1,1],[3,2],[5,3],[4,1],[2,3],[1,4]]
-        Point[] points = new Point[6];
-        points[0] = new Point(1,1);
-        points[1] = new Point(2,2);
-        points[2] = new Point(3,3);
-        points[3] = new Point(4,1);
-        points[4] = new Point(2,3);
-        points[5] = new Point(1,4);
+//        _0149MaxPointsonaLine maxPointsonaLine = new _0149MaxPointsonaLine();
+//        //[[1,1],[3,2],[5,3],[4,1],[2,3],[1,4]]
+//        Point[] points = new Point[6];
+//        points[0] = new Point(1,1);
+//        points[1] = new Point(2,2);
+//        points[2] = new Point(3,3);
+//        points[3] = new Point(4,1);
+//        points[4] = new Point(2,3);
+//        points[5] = new Point(1,4);
+//
+//        int res = maxPointsonaLine.maxPoints(points);
+//        System.out.print(res);
 
-        int res = maxPointsonaLine.maxPoints(points);
-        System.out.print(res);
+//        _0224Calculator calculator = new _0224Calculator();
+//        int num = calculator.calculate("2-(5-6)");
+//        System.out.print(num);
+
+//        _0227CalculatorII calculator = new _0227CalculatorII();
+//        int num = calculator.calculate("2*(5+5*2)/3+(6/2+8)");
+//        System.out.print(num);
+
+        _0282ExpressionAddOperators expressionAddOperators = new _0282ExpressionAddOperators();
+        List<String> res = expressionAddOperators.addOperators("123", 6);
+        for (String s : res) {
+            System.out.println(s);
+        }
+
     }
+
 }
 
 
