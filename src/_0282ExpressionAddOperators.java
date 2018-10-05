@@ -13,9 +13,8 @@ public class _0282ExpressionAddOperators {
     }
     private void helper(List<String> res, StringBuffer sb, int target, String num, long prev, long sum, int index) {
         if (index == num.length()) {
-            if (sum == target) {
+
                 res.add(new String(sb));
-            }
             return;
         }
         for (int i = index; i < num.length(); i++) {
