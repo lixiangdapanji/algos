@@ -276,14 +276,34 @@ public class _0000Main {
 //        int num = calculator.calculate("2*(5+5*2)/3+(6/2+8)");
 //        System.out.print(num);
 
-        _0282ExpressionAddOperators expressionAddOperators = new _0282ExpressionAddOperators();
-        List<String> res = expressionAddOperators.addOperators("123", 6);
-        for (String s : res) {
-            System.out.println(s);
-        }
+//        _0282ExpressionAddOperators expressionAddOperators = new _0282ExpressionAddOperators();
+//        List<String> res = expressionAddOperators.addOperators("123", 6);
+//        for (String s : res) {
+//            System.out.println(s);
+//        }
 
+//        _0451SortCharactersByFrequency sortCharactersByFrequency = new _0451SortCharactersByFrequency();
+////        String s = sortCharactersByFrequency.frequencySort("eeeee");
+////        System.out.print(s);
+
+//        String[] words = {"This", "is", "an", "example", "of", "text", "justification."};
+//        _0068TextJustification textJustification = new _0068TextJustification();
+//        List<String> list = textJustification.fullJustify(words,16);
+//        for(String s : list) {
+//            System.out.println(s);
+//        }
+
+        _0127WordLadder wordLadder = new _0127WordLadder();
+        List<String> list = new ArrayList<>();
+        list.add("hot");
+        list.add("dot");
+        list.add("dog");
+        list.add("lot");
+        list.add("log");
+        list.add("cog");
+        int n = wordLadder.ladderLength("hit", "cog",list);
+        System.out.println(n);
     }
-
 }
 
 
