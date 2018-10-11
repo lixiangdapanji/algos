@@ -16,7 +16,6 @@ public class _0127WordLadder {
                 String cur = queue.remove();
                 //1 op at node
                 // do nothing
-
                 //2 children
                 for (int index = 0; index < cur.length(); index++) {
                     for (char c = 'a'; c <= 'z'; c++) {

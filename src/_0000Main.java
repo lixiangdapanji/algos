@@ -293,16 +293,45 @@ public class _0000Main {
 //            System.out.println(s);
 //        }
 
-        _0127WordLadder wordLadder = new _0127WordLadder();
-        List<String> list = new ArrayList<>();
-        list.add("hot");
-        list.add("dot");
-        list.add("dog");
-        list.add("lot");
-        list.add("log");
-        list.add("cog");
-        int n = wordLadder.ladderLength("hit", "cog",list);
-        System.out.println(n);
+
+//        List<String> list = new ArrayList<>();
+//        list.add("hot");
+//        list.add("dot");
+//        list.add("dog");
+//        list.add("lot");
+//        list.add("log");
+//        //list.add("cog");
+//
+////        _0127WordLadder wordLadder = new _0127WordLadder();
+////        int n = wordLadder.ladderLength("hit", "cog",list);
+////        System.out.println(n);
+//
+//        _0126WordLadderII wordLadderII = new _0126WordLadderII();
+//
+//        List<List<String>> res = wordLadderII.findLadders("hit", "cog",list);
+//        for (List<String> l : res) {
+//            for (String s : l) {
+//                System.out.print(s + " ");
+//            }
+//            System.out.println("");
+//        }
+
+//        String licensePlate = "1s3 456";
+//        String[] words = {"looks", "pest", "stew", "show"};
+//        _0748ShortestCompletingWord shortestCompletingWord = new _0748ShortestCompletingWord();
+//        String res = shortestCompletingWord.shortestCompletingWord(licensePlate, words);
+//        System.out.println(res);
+
+
+//        int[] w = new int[]{1};
+//        _0528RandomPickwithWeight randomPickwithWeight = new _0528RandomPickwithWeight(w);
+//        int res = randomPickwithWeight.pickIndex();
+//        System.out.println(res);
+
+        int[] num = {1,2,6,4,3};
+        _0031NextPermutation nextPermutation = new _0031NextPermutation();
+        nextPermutation.nextPermutation(num);
+
     }
 }
 
