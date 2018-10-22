@@ -37,10 +37,10 @@ public class _0000Main {
 //        //binary tree
 //        BinaryTree tree = new BinaryTree();
 //
-//        tree.root = new Node(1);
-//        tree.root.left = new Node(2);
-//        tree.root.right = new Node(3);
-//        tree.root.left.left = new Node(4);
+//        tree.root = new Node426(1);
+//        tree.root.left = new Node426(2);
+//        tree.root.right = new Node426(3);
+//        tree.root.left.left = new Node426(4);
 
         //404
 
@@ -328,9 +328,31 @@ public class _0000Main {
 //        int res = randomPickwithWeight.pickIndex();
 //        System.out.println(res);
 
-        int[] num = {1,2,6,4,3};
-        _0031NextPermutation nextPermutation = new _0031NextPermutation();
-        nextPermutation.nextPermutation(num);
+//        int[] num = {1,2,6,4,3};
+//        _0031NextPermutation nextPermutation = new _0031NextPermutation();
+//        nextPermutation.nextPermutation(num);
+
+//        int[] nums = {-3,-1,0,2,4,5};
+//        _0018Sum4 sum4 = new _0018Sum4();
+//        sum4.fourSum(nums, 1);
+
+//        int[] nums1 = {1,7,11};
+//        int[] nums2 = {2,4,6};
+//        int k = 3;
+//        _0373FindKPairswithSmallestSums findKPairswithSmallestSums = new _0373FindKPairswithSmallestSums();
+//        List<int[]> list = findKPairswithSmallestSums.kSmallestPairs(nums1, nums2,k);
+//
+//        for(int[] nums : list) {
+//            System.out.println(nums[0] +"  "+ nums[1]);
+//        }
+
+        Node426 node1 = new Node426();
+        node1.left = new Node426();
+        node1.right = new Node426();
+
+        _0426ConvertBinarySearchTreetoSortedDoublyLinkedList convertBinarySearchTreetoSortedDoublyLinkedList = new _0426ConvertBinarySearchTreetoSortedDoublyLinkedList();
+        convertBinarySearchTreetoSortedDoublyLinkedList.treeToDoublyList(node1);
+
 
     }
 }

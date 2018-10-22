@@ -1,7 +1,7 @@
 public class DoubllyLinkedList {
     Node head; // head of list
 
-    /* Doubly Linked list Node*/
+    /* Doubly Linked list Node426*/
     class Node {
         int data;
         Node prev;

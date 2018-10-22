@@ -12,12 +12,12 @@ public class BinaryTree {
     }
 }
 
-class Node {
-    int key;
-    Node left, right;
-
-    public Node(int item) {
-        key = item;
-        left = right = null;
-    }
-}
+//class Node426 {
+//    int key;
+//    Node426 left, right;
+//
+//    public Node426(int item) {
+//        key = item;
+//        left = right = null;
+//    }
+//}
