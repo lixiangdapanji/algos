@@ -29,7 +29,7 @@ public class _0071SimplifyPath {
             if (!stack.isEmpty()) {
                 stack.pop();
             }
-        } else if (!path.substring(start, end).equals(".")) {
+        } else if (start < end && !path.substring(start, end).equals(".")) {
             stack.push(path.substring(start, end));
         }
     }

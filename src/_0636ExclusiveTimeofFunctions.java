@@ -3,28 +3,34 @@ import java.util.Stack;
 
 public class _0636ExclusiveTimeofFunctions {
     public int[] exclusiveTime(int n, List<String> logs) {
-        Stack<Integer> stack = new Stack<>();
         int[] result = new int[n];
-        String[] s = logs.get(0).split(":");
-        stack.push(Integer.parseInt(s[0]));
-        int prev = Integer.parseInt(s[2]);
-        int i = 1;
-        while ( i < logs.size()) {
-            s = logs.get(i).split(":");
-            if (s[1].equals("start")) {
-                if (!stack.isEmpty()) {
-                    result[stack.peek()] += Integer.parseInt(s[2]) - prev;
-                }
-                stack.push(Integer.parseInt(s[0]));
-                prev = Integer.parseInt(s[2]);
+        Stack<Node> stack = new Stack<>();
+        stack.push(new Node(-1, 0));
+
+        for (String log : logs) {
+            String[] logArr = log.split(":");
+            int id = Integer.parseInt(logArr[0]);
+            int time = Integer.parseInt(logArr[2]);
+            if (logArr[1].equals("start")) {
+                stack.push(new Node(id, time));
+            } else {
+                Node cur = stack.pop();
+                int consumed = time - cur._start + 1 - cur._consumedByChildren;
+                result[id] += consumed;
+                stack.peek()._consumedByChildren += time - cur._start + 1;
             }
-            if (s[1].equals("end")) {
-                result[stack.peek()] += Integer.parseInt(s[2]) - prev + 1;
-                stack.pop();
-                prev = Integer.parseInt(s[2]) + 1;
-            }
-            i++;
         }
         return result;
+    }
+    private class Node {
+        final int _id;
+        final int _start;
+        int _consumedByChildren;
+
+        public Node(int id, int start) {
+            _id = id;
+            _start = start;
+            _consumedByChildren = 0;
+        }
     }
 }

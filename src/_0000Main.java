@@ -1,4 +1,5 @@
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public class _0000Main {
     public static void main(String[] args) {
@@ -111,7 +112,7 @@ public class _0000Main {
 
 
 //        //71
-//        String s = "///";
+//        String s = "/abc/../c";
 //        _0071SimplifyPath path = new _0071SimplifyPath();
 //        System.out.println(path.simplifyPath(s));
 
@@ -125,7 +126,7 @@ public class _0000Main {
 //        int k = 1;
 //        _0325MaximumSizeSubarraySumEqualsk size = new _0325MaximumSizeSubarraySumEqualsk();
 //        System.out.println(size.maxSubArrayLen(nums,k));
-
+//
 //        //42
 //        int[] nums = new int[] {0,1,0,2,1,0,1,3,2,1,2,1};
 //        _0042TrappingRainWater h = new _0042TrappingRainWater();
@@ -346,15 +347,90 @@ public class _0000Main {
 //            System.out.println(nums[0] +"  "+ nums[1]);
 //        }
 
-        Node426 node1 = new Node426();
-        node1.left = new Node426();
-        node1.right = new Node426();
+//        Node426 node1 = new Node426();
+//        node1.left = new Node426();
+//        node1.right = new Node426();
+//
+//        _0426ConvertBinarySearchTreetoSortedDoublyLinkedList convertBinarySearchTreetoSortedDoublyLinkedList = new _0426ConvertBinarySearchTreetoSortedDoublyLinkedList();
+//        convertBinarySearchTreetoSortedDoublyLinkedList.treeToDoublyList(node1);
 
-        _0426ConvertBinarySearchTreetoSortedDoublyLinkedList convertBinarySearchTreetoSortedDoublyLinkedList = new _0426ConvertBinarySearchTreetoSortedDoublyLinkedList();
-        convertBinarySearchTreetoSortedDoublyLinkedList.treeToDoublyList(node1);
+//        _0301RemoveInvalidParentheses removeInvalidParentheses = new _0301RemoveInvalidParentheses();
+//        String s = removeInvalidParentheses.removeInvalidParentheses("()())()");
+//        System.out.print(s);
+//        List<String> res = new ArrayList<>();
+//        for (String s : res) {
+//            System.out.print(s);
+//        }
 
 
+//        int[] nums = {1, 3, 5, 4, 7};
+//        _0673NumberofLongestIncreasingSubsequence numberofLongestIncreasingSubsequence = new _0673NumberofLongestIncreasingSubsequence();
+//        numberofLongestIncreasingSubsequence.findNumberOfLIS(nums);
+
+//        int[][] nums = new int[][]{{1,0,2,0,1},{0,0,0,0,0},{0,0,1,0,0}};
+//        _0317ShortestDistancefromAllBuildings buildings = new _0317ShortestDistancefromAllBuildings();
+//        int r = buildings.shortestDistance(nums);
+//        System.out.print(r);
+
+
+
+//        _0785IsGraphBipartite graphBipartite = new _0785IsGraphBipartite();
+//        int[][] graph = new int[][]{{1,3},{0,2},{1,3},{0,2}};
+//        System.out.println(graphBipartite.isBipartite(graph));
+
+
+//        _0269AlienDictionary alienDictionary = new _0269AlienDictionary();
+//        String[] words = { "wrt", "wrf", "er", "ett", "rftt"};
+//        String x = alienDictionary.alienOrder(words);
+//        System.out.println(x);
+
+//        _0050Pow pow = new _0050Pow();
+//        pow.myPow(2,4);
+
+//    _0029DivideTwoIntegers divideTwoIntegers = new _0029DivideTwoIntegers();
+//    divideTwoIntegers.divide(32, 5);
+
+//        _0139WordBreak wordBreak = new _0139WordBreak();
+//        List<String> dict = new ArrayList<>();
+//        dict.add("aaa");
+//        dict.add("aa");
+//        dict.add("a");
+//        int n = wordBreak.wordBreak("aaaaaaa", dict);
+//        System.out.println(n);
+
+//        int[] nums = new int[]{0,0,1,2,3,3,4,7,7,8};
+//        _0658FindKClosestElements findKClosestElements = new _0658FindKClosestElements();
+//        findKClosestElements.findClosestElements(nums, 3, 5);
+
+        List<String> l1 = new ArrayList<>();
+        l1.add("John");
+        l1.add("johnsmith@mail.com");
+        l1.add("john00@mail.com");
+
+        List<String> l2 = new ArrayList<>();
+        l2.add("John");
+        l2.add("johnnybravo@mail.com");
+
+        List<String> l3 = new ArrayList<>();
+        l3.add("John");
+        l3.add("johnsmith@mail.com");
+        l3.add("john_newyork@mail.com");
+
+        List<String> l4 = new ArrayList<>();
+        l4.add("Mary");
+        l4.add("mary@mail.com");
+
+        _0721AccountsMerge accountsMerge = new _0721AccountsMerge();
+        List<List<String>> accounts = new ArrayList<>();
+
+        accounts.add(l1);
+        accounts.add(l2);
+        accounts.add(l3);
+        accounts.add(l4);
+
+        accountsMerge.accountsMerge(accounts);
     }
+
 }
 
 
