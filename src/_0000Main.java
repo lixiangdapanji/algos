@@ -373,7 +373,6 @@ public class _0000Main {
 //        System.out.print(r);
 
 
-
 //        _0785IsGraphBipartite graphBipartite = new _0785IsGraphBipartite();
 //        int[][] graph = new int[][]{{1,3},{0,2},{1,3},{0,2}};
 //        System.out.println(graphBipartite.isBipartite(graph));
@@ -402,35 +401,65 @@ public class _0000Main {
 //        _0658FindKClosestElements findKClosestElements = new _0658FindKClosestElements();
 //        findKClosestElements.findClosestElements(nums, 3, 5);
 
-        List<String> l1 = new ArrayList<>();
-        l1.add("John");
-        l1.add("johnsmith@mail.com");
-        l1.add("john00@mail.com");
+//        List<String> l1 = new ArrayList<>();
+//        l1.add("John");
+//        l1.add("johnsmith@mail.com");
+//        l1.add("john00@mail.com");
+//
+//        List<String> l2 = new ArrayList<>();
+//        l2.add("John");
+//        l2.add("johnnybravo@mail.com");
+//
+//        List<String> l3 = new ArrayList<>();
+//        l3.add("John");
+//        l3.add("johnsmith@mail.com");
+//        l3.add("john_newyork@mail.com");
+//
+//        List<String> l4 = new ArrayList<>();
+//        l4.add("Mary");
+//        l4.add("mary@mail.com");
+//
+//        _0721AccountsMerge accountsMerge = new _0721AccountsMerge();
+//        List<List<String>> accounts = new ArrayList<>();
+//
+//        accounts.add(l1);
+//        accounts.add(l2);
+//        accounts.add(l3);
+//        accounts.add(l4);
+//
+//        accountsMerge.accountsMerge(accounts);
 
-        List<String> l2 = new ArrayList<>();
-        l2.add("John");
-        l2.add("johnnybravo@mail.com");
+//        //247
+//        _0247StrobogrammaticNumberII strobogrammaticNumberII = new _0247StrobogrammaticNumberII();
+//        strobogrammaticNumberII.findStrobogrammatic(4);
 
-        List<String> l3 = new ArrayList<>();
-        l3.add("John");
-        l3.add("johnsmith@mail.com");
-        l3.add("john_newyork@mail.com");
 
-        List<String> l4 = new ArrayList<>();
-        l4.add("Mary");
-        l4.add("mary@mail.com");
+//        // 443
+//        _0443StringCompression stringCompression = new _0443StringCompression();
+//        char[] s = {'a','a','b','b','c','c','c'};
+//
+//        System.out.println(stringCompression.compress(s));
 
-        _0721AccountsMerge accountsMerge = new _0721AccountsMerge();
-        List<List<String>> accounts = new ArrayList<>();
 
-        accounts.add(l1);
-        accounts.add(l2);
-        accounts.add(l3);
-        accounts.add(l4);
+//        _0013RomantoInteger romantoInteger = new _0013RomantoInteger();
+//        romantoInteger.romanToInt("MCMXCIV");
 
-        accountsMerge.accountsMerge(accounts);
+
+//        String[] sentences = {"i love you", "island", "ironman", "i love leetcode"};
+//        int[] times = {5, 3, 2, 2};
+//        _0642DesignSearchAutocompleteSystem autocompleteSystem = new _0642DesignSearchAutocompleteSystem(sentences, times);
+//         autocompleteSystem.input('i');
+//         List<String> res = autocompleteSystem.input(' ');
+//
+//        for (String s : res) {
+//            System.out.println(s);
+//        }
+
+        _0215KthLargestElementArray kthLargestElementArray = new _0215KthLargestElementArray();
+        int[] nums = new int []{3,2,1,5,6,4};
+        int num = kthLargestElementArray.findKthLargest(nums,2);
+        System.out.println(num);
     }
 
 }
-
 
