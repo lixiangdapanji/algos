@@ -1,4 +1,4 @@
-public class _268MissingNumber {
+public class _0268MissingNumber {
     public int missingNumber(int[] nums) {
         if (nums == null || nums.length == 0) {
             return 1;

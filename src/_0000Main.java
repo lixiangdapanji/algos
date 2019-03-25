@@ -462,9 +462,15 @@ public class _0000Main {
 
 
         //89 gray code
-        _0089GrayCode grayCode = new _0089GrayCode();
-        List<Integer> list = grayCode.grayCode(3);
-        System.out.println(list);
+//        _0089GrayCode grayCode = new _0089GrayCode();
+//        List<Integer> list = grayCode.grayCode(3);
+//        System.out.println(list);
+
+        //268 missing number
+        _0268MissingNumber missingNumber = new _0268MissingNumber();
+        int[] nums = {3,4,7,2,6,1,5};
+        missingNumber.missingNumber(nums);
+
     }
 
 }
