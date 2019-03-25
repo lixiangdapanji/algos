@@ -455,10 +455,16 @@ public class _0000Main {
 //            System.out.println(s);
 //        }
 
-        _0215KthLargestElementArray kthLargestElementArray = new _0215KthLargestElementArray();
-        int[] nums = new int []{3,2,1,5,6,4};
-        int num = kthLargestElementArray.findKthLargest(nums,2);
-        System.out.println(num);
+//        _0215KthLargestElementArray kthLargestElementArray = new _0215KthLargestElementArray();
+//        int[] nums = new int []{3,2,1,5,6,4};
+//        int num = kthLargestElementArray.findKthLargest(nums,2);
+//        System.out.println(num);
+
+
+        //89 gray code
+        _0089GrayCode grayCode = new _0089GrayCode();
+        List<Integer> list = grayCode.grayCode(3);
+        System.out.println(list);
     }
 
 }
