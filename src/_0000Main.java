@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class _0000Main {
@@ -89,6 +90,7 @@ public class _0000Main {
 
 //        //692
 //        int k = 4;
+//        String[] input = {"the", "day", "is", "sunny", "the", "the", "the", "sunny", "is", "is"};
 //        String[] input = {"the", "day", "is", "sunny", "the", "the", "the", "sunny", "is", "is"};
 //        List<String> output = new _0692TopKFrequentWords().topKFrequent(input, k);
 //        for (String word : output) {
@@ -467,11 +469,14 @@ public class _0000Main {
 //        System.out.println(list);
 
         //268 missing number
-        _0268MissingNumber missingNumber = new _0268MissingNumber();
-        int[] nums = {3,4,7,2,6,1,5};
-        missingNumber.missingNumber(nums);
+//        _0268MissingNumber missingNumber = new _0268MissingNumber();
+//        int[] nums = {3,4,7,2,6,1,5};
+//        missingNumber.missingNumber(nums);
+
+
+        //254
+
 
     }
-
 }
 
