@@ -13,9 +13,9 @@ public class _0819MostCommonWord {
         int start = 0;
         for (int i = 0; i < s.length(); i++) {
             if (isDelimiter(s.charAt(i))) {
-                if(!isDelimiter(s.charAt(i - 1))) {
+               // if(!isDelimiter(s.charAt(i - 1))) {
                     arrStr.add(s.substring(start, i).toLowerCase());
-                }
+               // }
                 start = i + 1;
             }
         }

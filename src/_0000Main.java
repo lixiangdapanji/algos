@@ -128,7 +128,7 @@ public class _0000Main {
 //        int k = 1;
 //        _0325MaximumSizeSubarraySumEqualsk size = new _0325MaximumSizeSubarraySumEqualsk();
 //        System.out.println(size.maxSubArrayLen(nums,k));
-//
+
 //        //42
 //        int[] nums = new int[] {0,1,0,2,1,0,1,3,2,1,2,1};
 //        _0042TrappingRainWater h = new _0042TrappingRainWater();
@@ -474,9 +474,33 @@ public class _0000Main {
 //        missingNumber.missingNumber(nums);
 
 
-        //254
+//        //254
+//        _0254FactorCombinations factorCombinations = new _0254FactorCombinations();
+//        factorCombinations.getFactors(12);
 
+//        //256
+//        _0256PaintHouse paintHouse = new _0256PaintHouse();
+//        int[][] cost = {{17,2,17},{16,16,5},{14,3,19}};
+//        paintHouse.minCost(cost);
 
+        //407
+//        _0407TrappingRainWaterII trappingRainWaterII = new _0407TrappingRainWaterII();
+//        int[][] height = {{1,4,3,1,3,2}, {3,2,1,3,2,4}, {2,3,3,2,3,1}};
+//
+//        int sum = trappingRainWaterII.trapRainWater(height);
+//        System.out.println(sum);
+
+        //819
+//        _0819MostCommonWord mostCommonWord = new _0819MostCommonWord();
+//        String[] strs = {"bob", "hit"};
+//        mostCommonWord.mostCommonWord("Bob. hIt, baLl", strs);
+
+        //763
+//         _0763PartitionLabels partitionLabels = new _0763PartitionLabels();
+//         List<Integer> res = partitionLabels.partitionLabels("ababcbacadefegbdehijhklij");
+//         for (int n : res) {
+//             System.out.println(n);
+//         }
     }
 }
 
